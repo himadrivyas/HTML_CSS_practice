@@ -1,13 +1,41 @@
 /* Css Mapping started */
+.body h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0; }
+
 .large-background {
   background: url("../assets/images/main-background.jpg") no-repeat;
   background-size: cover;
   height: 1000px; }
 
-.headerSection {
-  background-color: #333;
-  opacity: 0.6;
-  height: auto; }
+.headerSection, .image-carousel {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: auto;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000); }
+
+.logo {
+  color: #fff;
+  z-index: 10; }
+
+.nav ul {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%; }
+  .nav ul li {
+    float: left;
+    padding: 1em; }
+  .nav ul a {
+    display: block;
+    color: #fff; }
+
+.iconic {
+  width: 20px;
+  height: 20px; }
+
+.arrow {
+  color: white;
+  fill: white; }
 
 .yellow {
   background-color: #FFF919;
